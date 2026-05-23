@@ -1,0 +1,202 @@
+(footprint "capacitor_220n"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.875 0)
+		(layer "F.SilkS")
+		(uuid "4d03b955-14d2-45f8-952c-e412496b1d37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capacitor_220n"
+		(at 0 2.775 0)
+		(layer "F.Fab")
+		(uuid "c1bc8253-fd2f-4a3f-b7e0-29b324b53466")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e0c24b-6fda-4c9f-b0e5-34cc1a0a6262")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9059d1ce-10d8-417c-b694-37e8470fa479")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 -1.59)
+		(end -2.54 1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca0f98a3-ecad-48b6-a6b4-f904ce73d87f")
+	)
+	(fp_line
+		(start -2.54 1.59)
+		(end 2.54 1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3096fa90-d5d8-486b-a23b-7515fca4e16f")
+	)
+	(fp_line
+		(start 2.54 -1.59)
+		(end -2.54 -1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "355602b9-232a-458e-bfee-a286b4cb943b")
+	)
+	(fp_line
+		(start 2.54 1.59)
+		(end 2.54 -1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62b0a48b-9726-4107-8aca-5d0825d36e46")
+	)
+	(fp_line
+		(start -2.79 -1.84)
+		(end -2.79 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb99b636-7d78-47d8-b9d1-62acfe424091")
+	)
+	(fp_line
+		(start -2.79 1.84)
+		(end 2.79 1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a0a80e9-badb-4317-b031-ee4a2030f8c0")
+	)
+	(fp_line
+		(start 2.79 -1.84)
+		(end -2.79 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b71bb77-ccda-4ea7-b9e7-0b1632f08857")
+	)
+	(fp_line
+		(start 2.79 1.84)
+		(end 2.79 -1.84)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4eb82a03-7c6f-4187-8116-466419008ef6")
+	)
+	(fp_line
+		(start -2.54 -1.59)
+		(end -2.54 1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baeebfcd-a1cd-43ed-b25f-24113008ccae")
+	)
+	(fp_line
+		(start -2.54 1.59)
+		(end 2.54 1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b8ae6ca-8342-4cd9-ad95-7109c2b91517")
+	)
+	(fp_line
+		(start 2.54 -1.59)
+		(end -2.54 -1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8849fe5e-2bd4-4da1-a26f-4a8038548044")
+	)
+	(fp_line
+		(start 2.54 1.59)
+		(end 2.54 -1.59)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "968d50de-afde-4892-8ebe-1643bbf48d57")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.318 1.318)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "49cdf7fe-66b2-4e00-9bc3-c8f64050e22e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.318 1.318)
+		(drill 0.81)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a6792233-7cd7-4db7-81e0-28c91ceb6c57")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../components/capacitor_220n/capacitor_220n.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

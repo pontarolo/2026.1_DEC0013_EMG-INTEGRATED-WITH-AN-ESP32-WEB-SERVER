@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "LM324N") (type "KiCad") (uri "/home/rodri/Desktop/emg-circuit/components/LM324N.kicad_sym") (options "") (descr ""))
+	(lib (name "MT3608_DC-DC_STEP_UP_CONVERTER_2A_BOOSTER_MODULE") (type "KiCad") (uri "/home/rodri/Desktop/emg-circuit/components/MT3608_DC-DC_STEP_UP_CONVERTER_2A_BOOSTER_MODULE.kicad_sym") (options "") (descr ""))
+	(lib (name "SJ1-3533") (type "KiCad") (uri "/home/rodri/Desktop/emg-circuit/components/SJ1-3533.kicad_sym") (options "") (descr ""))
+	(lib (name "TP4056") (type "KiCad") (uri "/home/rodri/Desktop/emg-circuit/components/TP4056.kicad_sym") (options "") (descr ""))
+	(lib (name "xl6009_module") (type "KiCad") (uri "/home/rodri/Desktop/emg-circuit/components/xl6009_module.kicad_sym") (options "") (descr ""))
+)
