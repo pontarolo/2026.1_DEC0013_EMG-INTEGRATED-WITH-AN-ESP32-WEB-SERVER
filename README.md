@@ -47,14 +47,14 @@ This section explains the details of the project, including the materials and to
       <font color="#666" size="2">470KΩ • THT</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/trimpot.jpeg" width="80" height="80" style="object-fit: contain;"><br>
+      <img src="/images/trimpot.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Trimpot</strong><br>
       <font color="#666" size="2">10KΩ • THT</font>
     </td>
   </tr>
   <tr>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/capacitor100u.jpg" width="80" height="80" style="object-fit: contain;"><br>
+      <img src="/images/capacitor100u.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Capacitor</strong><br>
       <font color="#666" size="2">100μF • Electrolytic THT</font>
     </td>
@@ -64,7 +64,7 @@ This section explains the details of the project, including the materials and to
       <font color="#666" size="2">220nF • Ceramic THT</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/battery.jpg" width="80" height="80" style="object-fit: contain;"><br>
+      <img src="/images/battery.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Battery 3.7V</strong><br>
       <font color="#666" size="2">Lithium-Ion</font>
     </td>
