@@ -1,5 +1,5 @@
 <div align="center">
-    <img  src="images/logo.png" />
+    <img  src="images/banner.png" />
 
 <h4 align="center">Electromyograph integrated with an ESP32 Web Server (⚠️ Under Construction!!)</h4>
 
