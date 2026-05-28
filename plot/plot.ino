@@ -37,10 +37,10 @@ const char HTML[] PROGMEM = R"=====(
             const webSocket = new WebSocket('ws://' + location.hostname + ':81/');
             webSocket.binaryType = "arraybuffer";
 
-            ws.onmessage = (e) => {
+            webSocket.onmessage = (e) => {
             if (e.data instanceof ArrayBuffer) {
                 const view = new DataView(e.data);
-                const voltage = (view.getUint16(0, true)  * 3.3) / 4095.0;
+                const voltage = view.getUint16(0, true) / 1000.0;
                 Plotly.extendTraces(plotDiv, { y: [[voltage]] }, [0], points);
             }};
 </script>
@@ -71,8 +71,8 @@ void loop() {
   webSocket.loop();
 
   if (millis() - last_time >= 20) {
-      uint16_t raw_value = analogRead(35); 
-      webSocket.broadcastBIN((uint8_t*)&raw_value, sizeof(raw_value));
+      uint16_t mv_value = analogReadMilliVolts(35); 
+      webSocket.broadcastBIN((uint8_t*)&mv_value, sizeof(mv_value));
     last_time = millis();
   }
 }
