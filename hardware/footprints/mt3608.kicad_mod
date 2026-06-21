@@ -1,0 +1,154 @@
+(footprint "mt3608"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "035829f2-b8bb-4d3f-a737-db6e54c7e707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MT3608"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c4300db-7c54-4662-ae21-0bfb2f88710c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a44785bb-05ce-4b3d-9569-edf0574fb184")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "460ce770-325c-41cc-b8c4-d1c75d4a5147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -19.5 -8.5)
+		(end 17.5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6d35068-48f3-4189-82d5-46d260611faf")
+	)
+	(fp_line
+		(start -19.5 8.5)
+		(end -19.5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75f5ffba-815a-413c-91b5-02f25b3cf9b8")
+	)
+	(fp_line
+		(start 17.5 -8.5)
+		(end 17.5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe85a422-7a1d-4ac6-b801-01e7ad9a1933")
+	)
+	(fp_line
+		(start 17.5 8.5)
+		(end -19.5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e34e225-a24c-4c0e-b582-b8f95f25b778")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cbb13785-b6d2-449a-94d5-b46bc94eab7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "VIN_N" thru_hole rect
+		(at 15 3.5)
+		(size 5 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b8a2da6-81ef-44e1-be72-7eb664bec1db")
+	)
+	(pad "VIN_P" thru_hole rect
+		(at 15 -3.5)
+		(size 5 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9c4abdb-7a22-425a-80d2-32789b54b3df")
+	)
+	(pad "VOUT_N" thru_hole rect
+		(at -17 3.5)
+		(size 5 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcface64-2f22-4896-bdcd-87460dbd1be7")
+	)
+	(pad "VOUT_P" thru_hole rect
+		(at -17 -3.5)
+		(size 5 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3477489f-4630-4196-884f-bdf0e1e04e3c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../models/mt3608.step"
+		(offset
+			(xyz -19.5 8.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
