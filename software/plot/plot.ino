@@ -12,6 +12,9 @@
 #ifndef PASSWORD
     #define PASSWORD "YOUR_PASSWORD"
 #endif
+#ifndef READ_MS
+    #define READ_MS 20
+#endif
 
 WebServer server(80);
 WebSocketsServer webSocket(81);
@@ -114,6 +117,7 @@ const char HTML[] PROGMEM = R"=====(
 //----------------------------------------------------------------------------------
 // Setup
 //----------------------------------------------------------------------------------
+
 void setup() {
     Serial.begin(115200);
     analogReadResolution(12);
@@ -136,13 +140,14 @@ void setup() {
 //----------------------------------------------------------------------------------
 // Main Loop
 //----------------------------------------------------------------------------------
+
 void loop() {
     server.handleClient();
     webSocket.loop();
 
     unsigned long last_time = 0;
 
-    if (millis() - last_time >= 20) {
+    if (millis() - last_time >= READ_MS) {
         uint16_t emg_data[2] = {(uint16_t)analogReadMilliVolts(35), (uint16_t)analogReadMilliVolts(34)};
         webSocket.broadcastBIN((uint8_t*)emg_data, sizeof(emg_data));
         last_time = millis();
