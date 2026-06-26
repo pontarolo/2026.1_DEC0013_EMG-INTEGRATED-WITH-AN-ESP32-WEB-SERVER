@@ -151,7 +151,7 @@ The image above represents the electrical diagram, which shows the electrical co
 | **TP4056** | Handles safe Li-Ion battery charging and provides over-discharge protection. |
 | **LM324N** | Handles differential amplification and active filtering of the microvolt-level muscle signals. |
 | **TRRS Breakout** | Serves as the input jack for the 3-lead electrode cable (Signal +, Signal -, and Reference). |
-| **ESP32** | Samples the analog processed signal and hosts the WebSocket server for real-time live plotting. |
+| **ESP32 (Implicit)** | Samples the analog processed signal and hosts the WebSocket server for real-time live plotting. |
 
 <p align="center">
     <img src="images/internal.png" />

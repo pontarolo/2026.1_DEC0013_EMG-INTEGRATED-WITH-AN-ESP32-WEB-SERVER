@@ -20,7 +20,7 @@ In the image above, it is presented the part of the code where the libraries use
 | **WebSockets** | 2.7.2 |
 | **Plotly** | 2.26.0 |
 
-The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are used for the Web Server, **Plotly** in the other hand is used to handle the mass data plottling and displaying it nicely in a graph.
+The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are used for the Web Server, **Plotly** in the other hand is used to handle the mass data plotting and displaying it nicely in a voltage against time graph.
 
 ---
 
