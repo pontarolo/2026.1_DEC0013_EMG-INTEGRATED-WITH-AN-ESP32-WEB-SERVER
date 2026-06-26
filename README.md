@@ -41,17 +41,17 @@ This section explains the details of the project, including the materials and to
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/220res.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Resistor</strong><br>
-      <font color="#666" size="2">2x 220Ω • THT</font>
+      <font color="#666" size="2">2x 220Ω • 1/4 W • 5% • THT</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/100kres.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Resistor</strong><br>
-      <font color="#666" size="2">4x 100KΩ • THT</font>
+      <font color="#666" size="2">4x 100KΩ • 1/4 W • 5% • THT</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/220kres.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Resistor</strong><br>
-      <font color="#666" size="2">4x 220KΩ • THT</font>
+      <font color="#666" size="2">4x 220KΩ • 1/4 W • 5% • THT</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/trimpot.png" width="80" height="80" style="object-fit: contain;"><br>
