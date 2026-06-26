@@ -64,7 +64,7 @@ This section explains the details of the project, including the materials and to
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/battery.png" width="80" height="80" style="object-fit: contain;"><br>
       <strong>Battery</strong><br>
-      <font color="#666" size="2">1x Lithium-Ion • 3.7V • 18650 • With Wires</font>
+      <font color="#666" size="2">2x Lithium-Ion • 3.7V • 18650</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/mt3608.png" width="80" height="80" style="object-fit: contain;"><br>
@@ -106,14 +106,14 @@ This section explains the details of the project, including the materials and to
       <font color="#666" size="2">1x Lithium-Ion • 18650 • Single</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/battery_2.png" width="80" height="80" style="object-fit: contain;"><br>
-      <strong>Battery</strong><br>
-      <font color="#666" size="2">1x Lithium-Ion • 3.7V • 18650</font>
+      <img src="/images/cable.png" width="80" height="80" style="object-fit: contain;"><br>
+      <strong>EMG Cable</strong><br>
+      <font color="#666" size="2">2x P2 Connection</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/flux.png" width="80" height="80" style="object-fit: contain;"><br>
-      <strong>Solder Flux</strong><br>
-      <font color="#666" size="2">1x Lead-Free</font>
+      <img src="/images/electrodes.png" width="80" height="80" style="object-fit: contain;"><br>
+      <strong>Electrodes</strong><br>
+      <font color="#666" size="2">6x Disposable</font>
     </td>
   </tr>
 </table>
