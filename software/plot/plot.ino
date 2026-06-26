@@ -76,7 +76,7 @@ const char HTML[] PROGMEM = R"=====(
     </head>
     <body>
         <div class="banner-container">
-            <img src="https://raw.githubusercontent.com/pontarolo/2026.1_DEC0013_EMG-INTEGRATED-WITH-AN-ESP32-WEB-SERVER/main/images/banner.png" height="120">
+            <img src="https://raw.githubusercontent.com/pontarolo/2026.1_DEC0013_EMG-INTEGRATED-WITH-AN-ESP32-WEB-SERVER/main/images/banner_3.png" height="120">
         </div>
         <main>
             <div id="channel-one-div" class="plot-div"></div>
