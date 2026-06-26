@@ -2,9 +2,9 @@
     <img src="../images/banner_2.png">
 </p>
 
-## Code Explanation
+## Basic Overview
 
-In this file, the main aspects of the software-side of the project are covered, such as libraries used, the network setup, a brief explanation of the logic and how the data was plotted. It was added a tutorial on how to install the specific libraries and softwares at the end of this document. 
+In this file, the main aspects of the software side of the project are covered, such as libraries used, the network setup, a brief explanation of the logic and how the data was plotted. It was added a tutorial on how to install the specific libraries and softwares at the end of this document. 
 
 ---
 

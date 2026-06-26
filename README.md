@@ -19,9 +19,18 @@
 
 ## Basic Overview
 
-This project consists of an implementation of a circuit to measure specific muscle activity. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting.
+This project consists of an implementation of a circuit to measure specific muscle activity, consisting of two channels, which means that it is possible to measure two muscles separatly and simultaneously. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting.
 
-## Description</div>
+## Goals
+
+| Type | Goal |
+| :--- | :--- |
+| **Hardware** | Design a circuit that is capable of effectively measuring a muscle voltage |
+| **Hardware** | Make the circuit as affordable as possible, but at the same time, noise-free |
+| **Software** | Write an optimized code that can display, in real time, the muscle data |
+
+
+## Description
 
 This section explains the details of the project, including the materials and tools used, communication and electrical diagrams and examples of its functionality.
 
@@ -210,13 +219,18 @@ All the others are **disconnected**.
 
 ## Prototype
 
-A single-channel prototype was implemented on a breadboard to validate the circuit's functionality during the testing phase.
+A single-channel prototype was implemented on a breadboard to validate the circuit's functionality during the testing phase. The prototype can be seen in the image below.
 
 <p align="center">
     <img src="images/prototype.png" />
 </p>
 
 ---
+
+## Final Assembly
+
+In the image below, it is shown the final assembly of this project, consisting of two main blocks, the printed circuit board (PCB), which was ordered from <a href="https://jlcpcb.com/">JLCPCB</a>, and the ESP32 microcontroller.
+
 
 ## Software Used
 
