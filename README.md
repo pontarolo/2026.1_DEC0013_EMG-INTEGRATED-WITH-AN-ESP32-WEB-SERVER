@@ -130,7 +130,7 @@ The image above represents the communication diagram, which shows the signal pat
 
 ---
 
-### Electrical Diagram
+### <a id="electrical"></a> Electrical Diagram
 
 
 In this subsection we will discuss the communication diagram of the project to give a general view of the signal processing and a clearer understanding of the circuit itself.
@@ -186,6 +186,25 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | Name | Equation |
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
+
+---
+
+### Pin Reference
+
+<p align="center">
+    <img src="images/pin_ref.png" width="800"/>
+</p>
+
+For reference look at the <a href="#electrical">Electrical Diagram</a>.
+
+| Pin Number | Connected to |
+| :--- | :--- |
+| **Pin 1** | VOUT_P (MT3608) |
+| **Pin 2** | VOUT_N (MT3608) |
+| **Pin 11** | O1 (Output 1) |
+| **Pin 12** | O2 (Output 2) |
+
+All the others are **disconnected**.
 
 ---
 
