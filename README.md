@@ -248,5 +248,11 @@ To install the software, click on the name and you will be redirected to the dow
       <strong><a href="https://www.kicad.org/download/">KiCad</a></strong><br>
       <font color="#666" size="2">v10.0.2</font>
     </td>
+     </td>
+        <td align="center" valign="top" width="120" style="border: none;">
+      <img src="images/krita_logo.png" alt="Krita Logo" width="80" height="80"><br>
+      <strong><a href="https://krita.org/pt-br/download/">Krita</a></strong><br>
+      <font color="#666" size="2">v6.0.2.1</font>
+    </td>
   </tr>
 </table>
