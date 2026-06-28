@@ -196,12 +196,6 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
 
-<p align="center">
-  <img src="images/pcb_layout.png">
-</p>
-
-The image above is a showcase of the printed circuit board (PCB) layout. Notice these blue and red regions, they represent a technique called copper pour, that serves the purpouse of attenuating and reduce the noise.
-
 ---
 
 ### Pin Reference
