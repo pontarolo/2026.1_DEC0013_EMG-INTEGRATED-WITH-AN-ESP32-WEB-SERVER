@@ -163,12 +163,6 @@ The image above represents the electrical diagram, which shows the electrical co
 | **ESP32 (Implicit)** | Samples the analog processed signal and hosts the WebSocket server for real-time live plotting. |
 
 <p align="center">
-  <img src="images/pcb_layout.png">
-</p>
-
-The image above is a showcase of the printed circuit board (PCB) layout. Notice these blue and red regions, they represent a technique called copper pour, that serves the purpouse of attenuating and reduce the noise.
-
-<p align="center">
     <img src="images/internal.png" />
 </p>
 
@@ -201,6 +195,12 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | Name | Equation |
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
+
+<p align="center">
+  <img src="images/pcb_layout.png">
+</p>
+
+The image above is a showcase of the printed circuit board (PCB) layout. Notice these blue and red regions, they represent a technique called copper pour, that serves the purpouse of attenuating and reduce the noise.
 
 ---
 
