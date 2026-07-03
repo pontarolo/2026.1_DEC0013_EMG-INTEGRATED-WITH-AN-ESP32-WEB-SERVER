@@ -2,7 +2,7 @@
     <img src="images/banner.png" />
     <img src="images/showcase.gif" />
 
-<h4 align="center">Electromyograph integrated with an ESP32 Web Server (⚠️ Under Construction!!)</h4>
+<h4 align="center">Electromyograph integrated with an ESP32 Web Server</h4>
 
 ![UFSC](https://img.shields.io/badge/UFSC-Ararangu%C3%A1-003366)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
