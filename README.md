@@ -19,14 +19,14 @@
 
 ## Basic Overview
 
-This project consists of an implementation of a circuit to measure specific muscle activity, consisting of two channels, which means that it is possible to measure two muscles separatly and simultaneously. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting.
+This project consists of an implementation of a circuit to measure specific muscle activity, consisting of two channels, which means that it is possible to measure two muscles simultaneously. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting.
 
 ## Goals
 
 | Type | Goal |
 | :--- | :--- |
-| **Hardware** | Design a circuit that is capable of effectively measuring a muscle voltage |
-| **Hardware** | Make the circuit as affordable as possible, but at the same time, noise-free |
+| **Hardware** | Design a circuit that is capable of effectively measuring muscle voltage |
+| **Hardware** | Make the circuit as noise-free as possible |
 | **Software** | Write an optimized code that can display, in real time, the muscle data |
 
 
@@ -105,9 +105,9 @@ This section explains the details of the project, including the materials and to
   </tr>
   <tr>
     <td align="center" valign="top" width="150" style="border: none;">
-      <img src="/images/dip14.png" width="80" height="80" style="object-fit: contain;"><br>
-      <strong>IC Socket</strong><br>
-      <font color="#666" size="2">1x DIP-14</font>
+      <img src="/images/isopropanol.png" width="80" height="80" style="object-fit: contain;"><br>
+      <strong>Isopropanol</strong><br>
+      <font color="#666" size="2">1x 99.8% Pure</font>
     </td>
     <td align="center" valign="top" width="150" style="border: none;">
       <img src="/images/cell_holder.png" width="80" height="80" style="object-fit: contain;"><br>
@@ -196,6 +196,9 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
 
+> [!IMPORTANT]  
+> Even though the project has only one graph, both of the outputs needs to be connected. The first output (O1) is the main channel, and the second output (O2) is an auxiliar channel that helps in cleaning the noise.
+
 ---
 
 ### Pin Reference
@@ -231,6 +234,46 @@ A single-channel prototype was implemented on a breadboard to validate the circu
 
 In the image below, it is shown the final assembly of this project, consisting of two main blocks, the printed circuit board (PCB), which was ordered from <a href="https://jlcpcb.com/">JLCPCB</a>, and the ESP32 microcontroller.
 
+
+<p align="center">
+    <img src="images/final_assembly.jpg" />
+</p>
+
+> [!TIP]
+> In environments highly susceptible to noise, such as an electromyograph, it is important to clean the board with isopropanol and a anti-static brush to remove any soldering residue.
+
+To help reduce the noise, it was used copper pouring in both layers of the printed circuit board (PCB). In the table below it is presented some important parameters of the board.
+
+| Parameter | Value |
+| :--- | :--- |
+| **Power Trace Width** | $0.4 \ mm$ |
+| **Signal Trace Width** | $0.2 \ mm$ |
+| **Clearance** | $0.2 \ mm$ |
+| **Via Size** | $0.6 \ mm$ |
+| **Via Hole** | $0.3 \ mm$ |
+| **μVia Size** | $0.3 \ mm$ |
+| **μVia Hole** | $0.1 \ mm$ |
+| **DP Width** | $0.2 \ mm$ |
+| **DP Gap** | $0.25 \ mm$ |
+
+---
+
+## Electrode Placement
+
+<p align="center">
+    <img src="images/cable_ref.jpg" />
+</p>
+
+| Cable End | Role |
+| :--- | :--- |
+| **Yellow** | Reference |
+| **Green** | Negative |
+| **Red** | Positive |
+
+> [!IMPORTANT]  
+> Place the yellow electrode in a non-muscular part of the body, and the centers of green and red electrodes within 2 centimeters apart.
+
+---
 
 ## Software Used
 

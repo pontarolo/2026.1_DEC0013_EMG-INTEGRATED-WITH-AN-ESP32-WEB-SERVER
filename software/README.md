@@ -28,6 +28,16 @@ The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are us
 
 ---
 
+### Filtering
+
+<p align="center">
+    <img src="../images/mean.png">
+</p>
+
+In the image above, it is shown a function that calculates a mean of the last eight readings from the pin specified in the parameter, helping in stabilizing the signal.
+
+---
+
 ### Defines
 
 <p align="center">
@@ -44,7 +54,7 @@ In the image above, it is shown the declaration of two constants (SSID and PASSW
     <img src="../images/main_loop.png">
 </p>
 
-In the image above, it is shown the main loop. The thing here, is that we calculate the difference between the function **millis()** the variable **last_time** to get the time between the two last readings, but, the microcontroller can stutter if too many readings are made in a short period of time. To solve that, it is needed to use a threshold, in this case the constant **READ_MS**, only readings within time spans greater or equal than **READ_MS** are accepted. If you look inside of the if statement, there is a declaration of an array that will hold the raw readings from the ESP32 analog to digital pins, and in the next line it is called a function to broadcast these in binary form, to optimize the microcontroller and prevent lagging.
+In the image above, it is shown the main loop. The thing here, is that we calculate the difference between the function **millis()** the variable **last_time** to get the time between the two last readings, but, the microcontroller can stutter if too many readings are made in a short period of time. To solve that, it is needed to use a threshold, in this case the constant **READ_MS**, only readings within time spans greater or equal than **READ_MS** are accepted. If you look inside of the if statement, there is a declaration of an variable that will hold the raw reading from the ESP32 analog to digital pin, and in the next line it is called a function to broadcast these in binary form, to optimize the microcontroller and prevent lagging.
 
 ---
 
