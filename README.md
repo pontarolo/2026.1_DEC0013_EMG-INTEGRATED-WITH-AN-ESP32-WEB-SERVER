@@ -240,7 +240,7 @@ In the image below, it is shown the final assembly of this project, consisting o
 </p>
 
 > [!TIP]
-> In environments highly susceptible to noise, such as an electromyograph, it is important to clean the board with isopropanol and a anti-static brush to remove any soldering residue.
+> In environments highly susceptible to noise, such as an electromyograph, it is important to clean the board with isopropanol and an anti-static brush to remove any soldering residue.
 
 To help reduce the noise, it was used copper pouring in both layers of the printed circuit board (PCB). In the table below it is presented some important parameters of the board.
 
