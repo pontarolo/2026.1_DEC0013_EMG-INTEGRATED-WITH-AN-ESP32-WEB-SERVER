@@ -41,7 +41,7 @@ This **setup** function initializes the environment for an ESP32 or similar micr
 To efficiently handle continuous data streams from an ESP32, this implementation utilizes the **Plotly.js** library. The visualization process is effectively divided into two distinct phases: the initial setup of the graph container and the high-performance handling of incoming WebSocket data packets.
 
 <p align="center">
-    <img src="../images/plotly_code.png.png">
+    <img src="../images/plotly_code.png">
 </p>
 
 The initialization phase is managed by the **Plotly.newPlot** function. This step defines the target **DOM** element for the chart and establishes the visual configuration, such as margin spacing and line styling. By setting the yaxis.range to [0, 3.3], the graph is correctly constrained to match the operating voltage of the **ESP32’s analog-to-digital converter** (ADC), ensuring that all incoming readings fit appropriately within the display area. Features like grid lines and the mode bar are also disabled here to minimize rendering overhead and maintain a cleaner user interface.
