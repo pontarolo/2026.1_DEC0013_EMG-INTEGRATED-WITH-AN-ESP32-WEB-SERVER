@@ -34,7 +34,7 @@ The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are us
     <img src="../images/mean.png">
 </p>
 
-In the image above, it is shown a function that calculates a mean of the last eight readings from the pin specified in the parameter, helping in stabilizing the signal.
+In the image above, it is shown a function that calculates the mean of the last eight readings from the pin specified in the parameter, helping in stabilizing the signal.
 
 ---
 
