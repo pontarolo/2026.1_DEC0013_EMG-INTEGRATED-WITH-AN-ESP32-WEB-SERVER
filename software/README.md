@@ -26,6 +26,8 @@ In the images above, it is presented the part of the code where the libraries us
 
 The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are used for the Web Server, **Plotly** in the other hand is used to handle the massive data plotting and displaying it nicely in a voltage against time graph.
 
+---
+
 ### Setup
 
 This **setup** function initializes the environment for an ESP32 or similar microcontroller to function as a web server.
@@ -35,6 +37,8 @@ This **setup** function initializes the environment for an ESP32 or similar micr
 </p>
 
  It begins by configuring serial communication at **115200 baud** for debugging and setting the analog-to-digital converter to 12-bit resolution for precise readings. To ensure stable connectivity, the code disables WiFi sleep mode before initiating a connection to the specified network, blocking further execution until a valid IP address is assigned and printed to the serial monitor. Finally, it defines the web server's root route to serve static HTML content and formally starts the **WebSocket** server to enable real-time, bidirectional data communication with connected clients.
+
+---
 
 ### Plotly Example
 
