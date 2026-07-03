@@ -20,7 +20,7 @@
 
 ## Basic Overview
 
-This project consists of an implementation of a circuit to measure specific muscle activity, consisting of two channels, which means that it is possible to measure two muscles simultaneously. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting.
+This project consists of an implementation of a circuit to measure specific muscle activity, consisting of two channels, which means that it is possible to measure two muscles simultaneously. The project emerges as a way to detect muscular issues and restraints in a low-cost and reliable manner. The general architecture of this project is a connection between the electromyograph PCB and the ESP32 microcontroller, where the ESP32 acts as a web server with an WebSocket to handle the data plotting. The GIF shown above was made from a video of the electromyograph in operation, which recorded the web page hosted by the ESP32.
 
 ## Goals
 
@@ -272,7 +272,7 @@ To help reduce the noise, it was used copper pouring in both layers of the print
 | **Red** | Positive |
 
 > [!IMPORTANT]  
-> Place the yellow electrode in a non-muscular part of the body, and the centers of green and red electrodes within 2 centimeters apart.
+> Place the yellow electrode in a non-muscular part of the body, and the centers of green and red electrodes within 2 centimeters apart along the desired muscle fibers.
 
 ---
 
