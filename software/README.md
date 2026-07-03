@@ -15,7 +15,7 @@ In this file, the main aspects of the software side of the project are covered, 
     <img src="../images/plotly.png">
 </p>
 
-In the image above, it is presented the part of the code where the libraries used in the project were declared. The libraries installed are the following
+In the images above, it is presented the part of the code where the libraries used in the project were declared. The libraries installed are the following
 
 | Library | Version |
 | :--- | :--- |
