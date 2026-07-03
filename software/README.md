@@ -24,7 +24,29 @@ In the images above, it is presented the part of the code where the libraries us
 | **WebSockets** | v2.7.2 |
 | **Plotly** | v2.26.0 |
 
-The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are used for the Web Server, **Plotly** in the other hand is used to handle the mass data plotting and displaying it nicely in a voltage against time graph.
+The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are used for the Web Server, **Plotly** in the other hand is used to handle the massive data plotting and displaying it nicely in a voltage against time graph.
+
+### Setup
+
+This **setup** function initializes the environment for an ESP32 or similar microcontroller to function as a web server.
+
+<p align="center">
+    <img src="../images/setup.png">
+</p>
+
+ It begins by configuring serial communication at **115200 baud** for debugging and setting the analog-to-digital converter to 12-bit resolution for precise readings. To ensure stable connectivity, the code disables WiFi sleep mode before initiating a connection to the specified network, blocking further execution until a valid IP address is assigned and printed to the serial monitor. Finally, it defines the web server's root route to serve static HTML content and formally starts the **WebSocket** server to enable real-time, bidirectional data communication with connected clients.
+
+### Plotly Example
+
+To efficiently handle continuous data streams from an ESP32, this implementation utilizes the **Plotly.js** library. The visualization process is effectively divided into two distinct phases: the initial setup of the graph container and the high-performance handling of incoming WebSocket data packets.
+
+<p align="center">
+    <img src="../images/plotly_code.png.png">
+</p>
+
+The initialization phase is managed by the **Plotly.newPlot** function. This step defines the target **DOM** element for the chart and establishes the visual configuration, such as margin spacing and line styling. By setting the yaxis.range to [0, 3.3], the graph is correctly constrained to match the operating voltage of the **ESP32’s analog-to-digital converter** (ADC), ensuring that all incoming readings fit appropriately within the display area. Features like grid lines and the mode bar are also disabled here to minimize rendering overhead and maintain a cleaner user interface.
+
+For real-time streaming, the **extendTraces** function is used instead of redrawing the entire graph, which is essential for performance. When the WebSocket receives a message, the data—sent as an ArrayBuffer—is parsed using a DataView. The raw 16-bit unsigned integer is converted into a meaningful voltage reading by dividing by 1000.0. This updated value is then passed to **extendTraces**, which efficiently appends the data point to the graph. By limiting the points variable to 300, the plot automatically maintains a smooth, sliding window effect that visualizes the signal in real-time without overwhelming the browser's resources.
 
 ---
 

@@ -136,7 +136,7 @@ In this subsection we will discuss the communication diagram of the project to g
     <img src="images/communication.png" />
 </p>
 
-The image above represents the communication diagram, which shows the signal path throughout the whole project. The user's noisy low-voltage signal is sent to the printed circuit board (PCB) through silver $Ag$ or silver chloride $AgCl$ electrodes, where it can be properly filtered and amplified. Then the clean signal is carried to the ESP32 microcontroller that acts as a WebSocket Server to handle mass data plotting, hosting an HTML page that displays the graph.
+The image above represents the communication diagram, which shows the signal path throughout the whole project. The user's noisy low-voltage signal is sent to the printed circuit board (PCB) through silver $Ag$ or silver chloride $AgCl$ electrodes, where it can be properly filtered and amplified. Then the clean signal is carried to the ESP32 microcontroller that acts as a WebSocket Server to handle massive data plotting, hosting an HTML page that displays the graph.
 
 ---
 
@@ -300,3 +300,7 @@ To install the software, click on the name and you will be redirected to the dow
     </td>
   </tr>
 </table>
+
+## References
+
+[1] Rodrigues, I. T., Bonfim, M. J., Miyazaki, D. R., da Fonseca, M. S. R. S., & da Silva Ferraz, R. Dispositivo de Aquisição de Sinais Eletromiograficos de Superfície para Monitoramento em Tempo Real.
