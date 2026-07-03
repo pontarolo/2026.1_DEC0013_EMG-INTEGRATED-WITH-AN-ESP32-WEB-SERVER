@@ -30,7 +30,7 @@ The **Async TCP**, **ESP Async WebServer** and the **WebSockets** library are us
 
 ### Setup
 
-Thhe **setup** function that is presented below initializes the environment for an ESP32 or similar microcontroller to function as a web server.
+The **setup** function that is presented below initializes the environment for an ESP32 or similar microcontroller to function as a web server.
 
 <p align="center">
     <img src="../images/setup.png">
