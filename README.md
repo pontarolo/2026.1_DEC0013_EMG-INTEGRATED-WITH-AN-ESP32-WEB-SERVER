@@ -197,9 +197,6 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
 
-> [!IMPORTANT]  
-> Even though the project has only one graph, both of the outputs needs to be connected. The first output (O1) is the main channel, and the second output (O2) is an auxiliar channel that helps in cleaning the noise.
-
 ---
 
 ### Pin Reference
@@ -218,6 +215,9 @@ For reference look at the <a href="#electrical">Electrical Diagram</a>.
 | **Pin 12** | O2 (Output 2) |
 
 All the others are **disconnected**.
+
+> [!IMPORTANT]  
+> Even though the project has only one graph, both of the outputs needs to be connected. The first output (O1) is the main channel, and the second output (O2) is an auxiliar channel that helps in cleaning the noise.
 
 ---
 
