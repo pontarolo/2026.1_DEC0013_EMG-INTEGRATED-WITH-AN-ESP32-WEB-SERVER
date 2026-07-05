@@ -40,7 +40,7 @@ This project consists of an implementation of a circuit to measure specific musc
 │   └── symbols/          # Custom schematic symbol libraries (.kicad_sym)
 ├── images/               # Visual assets for documentation and tutorials
 └── software/             # Firmware and source code for the project
-    └── plot/             # Arduino source code for data acquisition
+    └── plot/             # ESP32 source code for data acquisition
 ```
 
 ## Description
