@@ -30,6 +30,18 @@ This project consists of an implementation of a circuit to measure specific musc
 | **Hardware** | Make the circuit as noise-free as possible |
 | **Software** | Write an optimized code that can display, in real time, the muscle data |
 
+### Project Directory Structure
+
+```text
+├── hardware/             # PCB design files (symbols, footprints, models, and Gerbers)
+│   ├── footprints/       # Custom component footprints (.kicad_mod)
+│   ├── kicad_files/      # KiCad project files and manufacturing Gerbers
+│   ├── models/           # 3D step files for components
+│   └── symbols/          # Custom schematic symbol libraries (.kicad_sym)
+├── images/               # Visual assets for documentation and tutorials
+└── software/             # Firmware and source code for the project
+    └── plot/             # Arduino source code for data acquisition
+```
 
 ## Description
 
