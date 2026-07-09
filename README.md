@@ -209,6 +209,8 @@ By substituting the values, it follows that the circuit raises the muscle voltag
 | :--- | :--- |
 | **Reference Voltage** | $V_{out} = \left(5V\right)\left(\frac{R_{variable}}{R_{total}}\right)$ |
 
+So, to adjust the center of the signal (reference), it is needed to adjust the trimpot resistance.
+
 ---
 
 ### Pin Reference
