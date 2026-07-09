@@ -253,7 +253,7 @@ In the images below, it is shown the final assembly, consisting of two main bloc
 </p>
 
 <p align="center">
-    <img src="images/pcb_layout.png" width="800"/>
+    <img src="images/pcb_layout.png" width="900"/>
 </p>
 
 > [!TIP]
