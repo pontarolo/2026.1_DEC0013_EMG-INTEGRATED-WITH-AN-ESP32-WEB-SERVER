@@ -243,13 +243,17 @@ A single-channel prototype was implemented on a breadboard to validate the circu
 
 ---
 
-## Final Assembly
+## Final Assembly and PCB Layout
 
-In the image below, it is shown the final assembly of this project, consisting of two main blocks, the printed circuit board (PCB), which was ordered from <a href="https://jlcpcb.com/">JLCPCB</a>, and the ESP32 microcontroller.
+In the images below, it is shown the final assembly, consisting of two main blocks, the printed circuit board (PCB), which was ordered from <a href="https://jlcpcb.com/">JLCPCB</a>, and the ESP32 microcontroller, and the printed circuit board (PCB) layout.
 
 
 <p align="center">
     <img src="images/final_assembly.jpg" />
+</p>
+
+<p align="center">
+    <img src="images/pcb_layout.png" />
 </p>
 
 > [!TIP]
